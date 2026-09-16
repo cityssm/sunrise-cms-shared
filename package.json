@@ -1,0 +1,39 @@
+{
+  "name": "sunrise-cms-shared",
+  "version": "0.0.1",
+  "description": "Files shared between Sunrise CMS and Sunrise CMS Portal.",
+  "keywords": [
+    "sunrise-cms",
+    "cemetery-management"
+  ],
+  "homepage": "https://github.com/cityssm/sunrise-cms-shared#readme",
+  "bugs": {
+    "url": "https://github.com/cityssm/sunrise-cms-shared/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityssm/sunrise-cms-shared.git"
+  },
+  "license": "MIT",
+  "author": "The Corporation of the City of Sault Ste. Marie",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./api/doDataSync.endpoint.js": "./api/doDataSync.endpoint.js",
+    "./types.js": "./types.js"
+  },
+  "main": "index.js",
+  "files": [
+    "api/*",
+    "types.*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "eslint-config-cityssm": "^51.1.0",
+    "prettier-config-cityssm": "^2.2.0"
+  }
+}
