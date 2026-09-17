@@ -34,6 +34,8 @@ export interface PortalFuneralHome {
   funeralHomeCity: string
   funeralHomePostalCode: string
   funeralHomeProvince: string
+
+  funeralHomePhoneNumber: string
 }
 
 export interface PortalIntermentContainerType {
