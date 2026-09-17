@@ -22,4 +22,4 @@ export interface DoDataSyncRequest {
   serviceTypes: PortalServiceType[]
 }
 
-export interface DoDataSyncResponseData {}
+export type DoDataSyncResponseData = DoDataSyncRequest

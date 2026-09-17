@@ -10,5 +10,4 @@ export interface DoDataSyncRequest {
     intermentDepths: PortalIntermentDepth[];
     serviceTypes: PortalServiceType[];
 }
-export interface DoDataSyncResponseData {
-}
+export type DoDataSyncResponseData = DoDataSyncRequest;
