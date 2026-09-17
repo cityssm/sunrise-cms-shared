@@ -20,12 +20,14 @@
   "type": "module",
   "exports": {
     ".": "./index.js",
+    "./api/api.endpoint.js": "./api/api.endpoint.js",
     "./api/doDataSync.endpoint.js": "./api/doDataSync.endpoint.js",
     "./types.js": "./types.js"
   },
   "main": "index.js",
   "files": [
     "api/*",
+    "index.*",
     "types.*"
   ],
   "scripts": {
