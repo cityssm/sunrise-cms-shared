@@ -19,6 +19,7 @@ export interface PortalCommittalType {
 export interface PortalContractType {
     contractType: string;
     contractTypeId: string;
+    isPreneed: boolean;
 }
 export interface PortalFuneralHome {
     funeralHomeId: string;
