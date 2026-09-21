@@ -1,5 +1,5 @@
 export interface PortalBurialSiteType {
-  burialSiteType: string
+  burialSiteType: number
   burialSiteTypeId: string
 }
 
@@ -19,7 +19,7 @@ export const DirectionsOfArrival = {
 }
 
 export interface PortalCemetery {
-  cemeteryId: string
+  cemeteryId: number
   cemeteryKey: string
   cemeteryName: string
 
@@ -44,7 +44,7 @@ export interface PortalContractType {
 }
 
 export interface PortalFuneralHome {
-  funeralHomeId: string
+  funeralHomeId: number
   funeralHomeName: string
 
   funeralHomeAddress1: string
