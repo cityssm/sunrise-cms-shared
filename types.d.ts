@@ -2,6 +2,16 @@ export interface PortalBurialSiteType {
     burialSiteType: string;
     burialSiteTypeId: string;
 }
+export declare const DirectionsOfArrival: {
+    N: string;
+    NE: string;
+    E: string;
+    SE: string;
+    S: string;
+    SW: string;
+    W: string;
+    NW: string;
+};
 export interface PortalCemetery {
     cemeteryId: string;
     cemeteryKey: string;
@@ -11,6 +21,7 @@ export interface PortalCemetery {
     cemeteryCity: string;
     cemeteryPostalCode: string;
     cemeteryProvince: string;
+    directionsOfArrival?: Record<keyof typeof DirectionsOfArrival, string>;
 }
 export interface PortalCommittalType {
     committalType: string;

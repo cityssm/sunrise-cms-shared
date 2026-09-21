@@ -3,6 +3,21 @@ export interface PortalBurialSiteType {
   burialSiteTypeId: string
 }
 
+export const DirectionsOfArrival = {
+  N: "North",
+  NE: "Northeast",
+
+  E: "East",
+  SE: "Southeast",
+
+  S: "South",
+  SW: "Southwest",
+
+  W: "West",
+
+  NW: "Northwest",
+}
+
 export interface PortalCemetery {
   cemeteryId: string
   cemeteryKey: string
@@ -13,6 +28,8 @@ export interface PortalCemetery {
   cemeteryCity: string
   cemeteryPostalCode: string
   cemeteryProvince: string
+
+  directionsOfArrival?: Record<keyof typeof DirectionsOfArrival, string>
 }
 
 export interface PortalCommittalType {
