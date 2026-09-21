@@ -21,7 +21,7 @@ export interface PortalCemetery {
     cemeteryCity: string;
     cemeteryPostalCode: string;
     cemeteryProvince: string;
-    directionsOfArrival?: Record<keyof typeof DirectionsOfArrival, string>;
+    directionsOfArrival?: Partial<Record<keyof typeof DirectionsOfArrival, string>>;
 }
 export interface PortalCommittalType {
     committalType: string;
