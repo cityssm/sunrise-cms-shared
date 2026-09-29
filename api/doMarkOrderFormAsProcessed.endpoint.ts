@@ -8,7 +8,7 @@ export interface DoMarkOrderFormAsProcessedRequest {
 
 export const doMarkOrderFormAsProcessedEndpoint = 'doMarkOrderFormAsProcessed'
 
-export interface DoMarkOrderFormAsProcessedResponse {
+export interface DoMarkOrderFormAsProcessedResponseData {
   success: boolean
 
   recordUpdate_timeMillis: number

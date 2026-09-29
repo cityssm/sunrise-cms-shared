@@ -4,7 +4,7 @@ export interface DoMarkOrderFormAsProcessedRequest {
     username: string;
 }
 export declare const doMarkOrderFormAsProcessedEndpoint = "doMarkOrderFormAsProcessed";
-export interface DoMarkOrderFormAsProcessedResponse {
+export interface DoMarkOrderFormAsProcessedResponseData {
     success: boolean;
     recordUpdate_timeMillis: number;
 }

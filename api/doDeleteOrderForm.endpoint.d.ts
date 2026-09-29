@@ -3,7 +3,7 @@ export interface DoDeleteOrderFormRequest {
     username: string;
 }
 export declare const doDeleteOrderFormEndpoint = "doDeleteOrderForm";
-export interface DoDeleteOrderFormResponse {
+export interface DoDeleteOrderFormResponseData {
     success: boolean;
     recordDelete_timeMillis: number;
 }

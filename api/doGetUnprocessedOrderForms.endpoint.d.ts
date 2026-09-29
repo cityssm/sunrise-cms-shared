@@ -6,6 +6,6 @@ export interface UnprocessedOrderForm {
     recordCreate_ipAddress: string;
     recordCreate_timeMillis: number;
 }
-export interface DoGetUnprocessedOrderFormsResponse {
+export interface DoGetUnprocessedOrderFormsResponseData {
     orderForms: UnprocessedOrderForm[];
 }

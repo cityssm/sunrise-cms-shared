@@ -10,6 +10,6 @@ export interface UnprocessedOrderForm {
   recordCreate_timeMillis: number
 }
 
-export interface DoGetUnprocessedOrderFormsResponse {
+export interface DoGetUnprocessedOrderFormsResponseData {
   orderForms: UnprocessedOrderForm[]
 }
