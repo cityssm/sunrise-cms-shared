@@ -4,7 +4,7 @@ export interface UnprocessedOrderForm {
   orderFormId: number
   orderFormKey: string
 
-  orderFormData: Record<string, unknown>
+  orderFormData: Record<string, string>
 
   recordCreate_ipAddress: string
   recordCreate_timeMillis: number
