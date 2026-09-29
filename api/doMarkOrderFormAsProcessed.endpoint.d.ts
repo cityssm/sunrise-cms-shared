@@ -1,5 +1,6 @@
 export interface DoMarkOrderFormAsProcessedRequest {
     orderFormId: number;
+    contractId?: number;
     username: string;
 }
 export declare const doMarkOrderFormAsProcessedEndpoint = "doMarkOrderFormAsProcessed";
