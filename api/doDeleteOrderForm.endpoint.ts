@@ -6,7 +6,5 @@ export interface DoDeleteOrderFormRequest {
 export const doDeleteOrderFormEndpoint = 'doDeleteOrderForm'
 
 export interface DoDeleteOrderFormResponseData {
-  success: boolean
-
   recordDelete_timeMillis: number
 }
