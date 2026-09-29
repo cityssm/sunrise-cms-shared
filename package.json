@@ -22,6 +22,9 @@
     ".": "./index.js",
     "./api/api.endpoint.js": "./api/api.endpoint.js",
     "./api/doDataSync.endpoint.js": "./api/doDataSync.endpoint.js",
+    "./api/doDeleteOrderForm.endpoint.js": "./api/doDeleteOrderForm.endpoint.js",
+    "./api/doGetUnprocessedOrderForms.endpoint.js": "./api/doGetUnprocessedOrderForms.endpoint.js",
+    "./api/doMarkOrderFormAsProcessed.endpoint.js": "./api/doMarkOrderFormAsProcessed.endpoint.js",
     "./types.js": "./types.js"
   },
   "main": "index.js",
@@ -34,8 +37,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@types/node": "^26.6.2",
-    "eslint-config-cityssm": "^53.0.0",
+    "@types/node": "^26.6.3",
+    "eslint-config-cityssm": "^55.0.0",
     "prettier-config-cityssm": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
