@@ -1,7 +1,5 @@
 export interface DoMarkOrderFormAsSyncedRequest {
   orderFormId: number
-  username: string
-
 }
 
 export const doMarkOrderFormAsSyncedEndpoint = 'doMarkOrderFormAsSynced'
