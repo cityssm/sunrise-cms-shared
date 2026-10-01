@@ -1,6 +1,6 @@
 {
   "name": "sunrise-cms-shared",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Files shared between Sunrise CMS and Sunrise CMS Portal.",
   "keywords": [
     "sunrise-cms",
@@ -24,7 +24,7 @@
     "./api/doDataSync.endpoint.js": "./api/doDataSync.endpoint.js",
     "./api/doDeleteOrderForm.endpoint.js": "./api/doDeleteOrderForm.endpoint.js",
     "./api/doGetUnprocessedOrderForms.endpoint.js": "./api/doGetUnprocessedOrderForms.endpoint.js",
-    "./api/doMarkOrderFormAsProcessed.endpoint.js": "./api/doMarkOrderFormAsProcessed.endpoint.js",
+    "./api/doMarkOrderFormAsSynced.endpoint.js": "./api/doMarkOrderFormAsSynced.endpoint.js",
     "./types.js": "./types.js"
   },
   "main": "index.js",
