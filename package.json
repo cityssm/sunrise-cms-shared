@@ -34,14 +34,21 @@
     "types.*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:cspell": "cspell lint \"**/*.{ts,md}\"",
+    "lint:editorconfig": "editorconfig-checker",
+    "lint:eslint:md": "eslint **/*.md",
+    "lint:eslint:ts": "eslint --ignore-pattern \"**/*.d.ts\" --ignore-pattern \"test/**\" --no-warn-ignored \"**/*.ts\"",
+    "lint:markdown": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" \"#.github\""
   },
   "dependencies": {
     "@cityssm/utils-datetime": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^26.6.4",
+    "cspell-cli": "^10.3.0",
+    "editorconfig-checker": "^7.0.0",
     "eslint-config-cityssm": "^57.1.0",
+    "markdownlint-cli2": "^0.23.3",
     "prettier-config-cityssm": "^2.2.0"
   },
   "engines": {
